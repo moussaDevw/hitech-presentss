@@ -1,0 +1,726 @@
+/* .blog_page{
+    width: 100%;
+    margin-left: 14%;
+}
+.container{
+    display: flex;
+}
+.info_title{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #2B2B2B;
+}
+.contact_form{
+    width: 490px;
+    background-color: white;
+    margin-right: 30px;
+}
+.form{
+    padding-top: 10%;
+    margin-left: 5%;
+}
+.form_label{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin: 0;
+    color: #767676;
+}
+.input_value{
+    border: none;
+    width: 450px;
+    height: 50px;
+    background: #F0F0F6;
+    margin-bottom: 5%;
+}
+.contact_info{
+    width: 300px;
+    height: 210px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.textarea{
+    width: 450px;
+    height: 210px;
+    background: #F0F0F6;
+}
+.location{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.location_key{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: #767676;
+    margin-left: 40px;
+}
+.location_value{
+    margin-right: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    color: #767676;
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px){
+    .blog_page{
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .container{
+        display: flex;
+    }
+    .info_title{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #2B2B2B;
+    }
+    .contact_form{
+        width: 490px;
+        background-color: white;
+        margin-right: 30px;
+    }
+    .form{
+        padding-top: 10%;
+    }
+    .form_label{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        margin: 0;
+        color: #767676;
+    }
+    .input_value{
+        border: none;
+        width: 450px;
+        height: 50px;
+        background: #F0F0F6;
+        margin-bottom: 5%;
+    }
+    .contact_info{
+        width: 300px;
+        height: 210px;
+        background-color: white;
+    }
+    
+    .textarea{
+        width: 450px;
+        height: 210px;
+        background: #F0F0F6;
+    }
+    .location{
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .location_key{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+        
+    }
+    .location_value{
+        margin-right: 40px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+        color: #767676;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .blog_page{
+        width: 100%;
+        margin-top: 15%;
+    }
+    .container{
+        width: 100%;
+        padding-bottom: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .info_title{
+        width: 100%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #2B2B2B;
+    }
+    .contact_form{
+        width: 95%;
+        background-color: white;
+        margin: 0 auto;
+    }
+    .form{
+        padding-top: 10%;
+        margin-left: 12%;
+    }
+    .form_label{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+    }
+    .input_value{
+        border: none;
+        width: 90%;
+        height: 30px;
+        background: #F0F0F6;
+        margin:0 auto 5% auto;
+    }
+    .textarea{
+        width: 90%;
+        height: 110px;
+        background: #F0F0F6;
+    }
+    .contact_info{
+        width: 90%;
+        height: 210px;
+        background-color: white;
+        margin:0 auto 20px auto;
+    }
+    .location{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .location_key{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+    }
+    .location_value{
+        padding-top: 8%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7rem;
+        line-height: 24px;
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+        color: #767676;
+    }
+}
+@media screen and (min-width: 301px) and (max-width: 480px){
+    .blog_page{
+        width: 100%;
+        margin-top: 15%;
+    }
+    .container{
+        width: 100%;
+        padding-bottom: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .info_title{
+        width: 100%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #2B2B2B;
+        text-align: center;
+    }
+    .contact_form{
+        width: 95%;
+        background-color: white;
+        margin: 0 auto;
+    }
+    .form{
+        padding-top: 10%;
+        margin-left: 12%;
+    }
+    .form_label{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+    }
+    .input_value{
+        border: none;
+        width: 90%;
+        height: 30px;
+        background: #F0F0F6;
+        margin:0 auto 5% auto;
+    }
+    .textarea{
+        width: 90%;
+        height: 110px;
+        background: #F0F0F6;
+    }
+    .contact_info{
+        width: 90%;
+        height: 210px;
+        background-color: white;
+        margin:0 auto 20px auto;
+    }
+    .location{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .location_key{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+    }
+    .location_value{
+        padding-top: 8%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7rem;
+        line-height: 24px;
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+        color: #767676;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .blog_page{
+        width: 100%;
+        margin-top: 12%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info_title{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #2B2B2B;
+        text-align: center;
+    }
+    .contact_form{
+        width: 90%;
+        background-color: white;
+    }
+    .form{
+        padding-top: 10%;
+        margin-left: 5%;
+    }
+    .form_label{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        margin: 0;
+        color: #767676;
+    }
+    .input_value{
+        border: none;
+        width: 90%;
+        height: 50px;
+        background: #F0F0F6;
+        margin-bottom: 5%;
+    }
+    .textarea{
+        width: 90%;
+        height: 210px;
+        background: #F0F0F6;
+    }
+    .contact_info{
+        width: 100%;
+        height: 210px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .location{
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .location_key{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+        margin-left: 40px;
+    }
+    .location_value{
+        margin-right: 40px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+        color: #767676;
+    }    
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .blog_page{
+        width: 100%;
+        margin-top: 12%;
+        margin-left: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        background-color: tomato;
+        width: 100%;
+    }
+    .info_title{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #2B2B2B;
+        text-align: center;
+    }
+    .contact_form{
+        width: 90%;
+        background-color: white;
+    } */
+    /*
+    .form{
+        padding-top: 10%;
+        margin-left: 5%;
+    }
+    .form_label{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        margin: 0;
+        color: #767676;
+    }
+    .input_value{
+        border: none;
+        width: 90%;
+        height: 50px;
+        background: #F0F0F6;
+        margin-bottom: 5%;
+    }
+    .textarea{
+        width: 90%;
+        height: 210px;
+        background: #F0F0F6;
+    }
+    .contact_info{
+        width: 100%;
+        height: 210px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .location{
+        display: flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    .location_key{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 123.6%;
+        text-transform: capitalize;
+        color: #767676;
+        margin-left: 40px;
+    }
+    .location_value{
+        margin-right: 40px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+        color: #767676;
+    }     
+}*/
+@media screen and (min-width: 0px) and (max-width: 300px){
+    .blog_contact{
+        background-color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+    }
+    .title_info{
+        /* H2 - 32px */
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 123.6%;
+    /* identical to box height, or 40px */
+    
+    text-transform: capitalize;
+    
+    /* Black */
+    
+    color: #2B2B2B;
+    background-color: blanchedalmond;
+    }
+    .formContact{
+        height: 665px;
+        background-color: red;
+    }
+   
+    .form_contact label{
+        display: block;
+        /* H4 - 18px */
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 123.6%;
+        /* or 22px */
+
+        text-transform: capitalize;
+
+        /* Paragraph Font */
+
+        color: #767676;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .form_contact input{
+        width: 100%;
+        height: 50px;
+        background-color: #F0F0F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_contact textarea{
+        width: 100%;
+        height: 210px;
+    }
+    .info_details div{
+        background-color: white;
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .info_details div address{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info_details div address h4{
+        /* H4 - 18px */
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 123.6%;
+        /* or 22px */
+
+        text-transform: capitalize;
+
+        /* Paragraph Font */
+
+        color: #767676;
+    }
+    .info_details div address p{
+        /* Paragraph Progress - 15 */
+        margin-top: 5%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        /* identical to box height, or 160% */
+
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+
+        /* Paragraph Font */
+
+        color: #767676;
+
+    }
+}
+@media screen and (min-width:1024px) {
+    .blog_contact{
+        background-color: #F0F0F6;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .blog_contact section{
+        width: 80%;
+    }
+    .blog_contact form{
+        background-color: white;
+        margin-left: 5%;
+    }
+    .blog_contact aside{
+        width: 50%;
+    }
+    .title_info{
+        /* H2 - 32px */
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 123.6%;
+        /* identical to box height, or 40px */
+        
+        text-transform: capitalize;
+        
+        /* Black */
+    
+    color: #2B2B2B;
+    }
+    .form_contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin:30px auto;
+    }
+    .form_contact label{
+        display: block;
+        /* H4 - 18px */
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 123.6%;
+        /* or 22px */
+
+        text-transform: capitalize;
+
+        /* Paragraph Font */
+
+        color: #767676;
+        text-transform: capitalize;
+        width: 90%;
+    }
+    .form_contact input{
+        width: 90%;
+        height: 50px;
+        background-color: #F0F0F6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form_contact textarea{
+        width: 90%;
+        height: 210px;
+    }
+    .info_details div{
+        margin-left: 10%;
+        background-color: white;
+        width: 85%;
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .info_details div address{
+        display: flex;
+        justify-content: space-around;
+    }
+    .info_details div address h4{
+        /* H4 - 18px */
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 123.6%;
+        /* or 22px */
+
+        text-transform: capitalize;
+
+        /* Paragraph Font */
+
+        color: #767676;
+    }
+    .info_details div address p{
+        /* Paragraph Progress - 15 */
+        margin-top: 5%;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        /* identical to box height, or 160% */
+
+        text-align: right;
+        text-transform: capitalize;
+        font-feature-settings: 'calt' off, 'kern' off;
+
+        /* Paragraph Font */
+
+        color: #767676;
+
+    }
+}

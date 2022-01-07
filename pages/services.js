@@ -4,56 +4,14 @@ import { Footer } from '../components/Footer/Footer'
 import { NavBar } from '../components/NavBar/NavBar'
 
 export default function Services() {
-  useEffect(()=>{
-    /*
-
-Learn how to code this watch step by step on YouTube:
-
-https://www.youtube.com/watch?v=ULomsOSk4JA
-
-Follow me on twitter for more: https://twitter.com/HunorBorbely
-
-*/
-
-// const textElement = document.getElementById("text");
-// const hoursElement = document.getElementById("hour_hand");
-// const minutesElement = document.getElementById("minute_hand");
-// const secondsElement = document.getElementById("second_hand");
-
-// let showDate = true;
-
-// function animate() {
-//   const date = new Date();
-
-//   const day = date.getDate();
-//   const ampm = date.getHours() >= 12 ? "PM" : "AM";
-//   const hour = date.getHours() + date.getMinutes() / 60;
-//   const minute = date.getMinutes() + date.getSeconds() / 60;
-//   const second = date.getSeconds() + date.getMilliseconds() / 1000;
-
-//   textElement.textContent = showDate ? day : ampm;
-//   hoursElement.setAttribute("transform", `rotate(${(360 / 12) * hour})`);
-//   minutesElement.setAttribute("transform", `rotate(${(360 / 60) * minute})`);
-//   secondsElement.setAttribute("transform", `rotate(${(360 / 60) * second})`);
-
-//   requestAnimationFrame(animate);
-// }
-
-// requestAnimationFrame(animate);
-
-// textElement.addEventListener("click", () => {
-//   showDate = !showDate;
-// });
-
-// document.querySelector("svg").style.display = "block";
-
-  },[])
+  
   const [selected, setSelected] = useState('soutenir')
+
   return (
     <div>
       <Head>
       <meta charset="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="IE=9" />
+      <meta httpEquiv="x-ua-compatible" content="IE=9" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>nos services</title>
       <meta name="description" content="" />
@@ -68,19 +26,19 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
       <link rel="stylesheet" type="text/css"  href="montre.css" />
       <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css' />
       </Head>
-      <body class="page">
+      <body className="page">
         <NavBar />
       <div id="page-banner">
-        <div class="content  wow fdeInUp">
-          <div class="container ">
+        <div className="content  wow fdeInUp">
+          <div className="container ">
             <h1>Nous créons des expériences numériques de pointe.</h1>
           </div>
         </div>
       </div>
       <section id="about-us-block">
-  <div class="container">
-    <div class="row"> 
-      <div class="section-title text-center wow fadeInUp">
+  <div className="container">
+    <div className="row"> 
+      <div className="section-title text-center wow fadeInUp">
         <h2>Vous avez bâti une entreprise incroyable. Nous veillons à ce que les gens s'en souviennent.</h2>
         {/* <a href="page.html">Mission brief</a> */}
         <p>
@@ -91,9 +49,9 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
   </div>
 </section>
 <section id="about-us-block">
-  <div class="container">
-    <div class="row"> 
-      <div class="section-title text-center wow fadeInUp">
+  <div className="container">
+    <div className="row"> 
+      <div className="section-title text-center wow fadeInUp">
         <h2>Ce que nous faisons.</h2>
         {/* <a href="page.html">Mission brief</a> */}
         <p>
@@ -104,37 +62,37 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
   </div>
 </section>
       {/* <svg width="200" height="200" viewBox="-100 -100 200 200">
-  <circle class="minute_marker" r="90" pathLength="60" />
-  <circle class="hour_marker" r="90" pathLength="60" />
-  <text id="text" class="text" x="45" y="5"></text>
+  <circle className="minute_marker" r="90" pathLength="60" />
+  <circle className="hour_marker" r="90" pathLength="60" />
+  <text id="text" className="text" x="45" y="5"></text>
 
   <g id="hour_hand">
-    <line class="hand" x1="0" y1="0" x2="0" y2="-50" />
-    <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-50" />
+    <line className="hand" x1="0" y1="0" x2="0" y2="-50" />
+    <line className="hand hand--thick" x1="0" y1="-12" x2="0" y2="-50" />
   </g>
 
   <g id="minute_hand">
-    <line class="hand" x1="0" y1="0" x2="0" y2="-80" />
-    <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-80" />
+    <line className="hand" x1="0" y1="0" x2="0" y2="-80" />
+    <line className="hand hand--thick" x1="0" y1="-12" x2="0" y2="-80" />
   </g>
 
   <g id="second_hand">
-    <line class="hand hand--second" x1="0" y1="12" x2="0" y2="-80" />
+    <line className="hand hand--second" x1="0" y1="12" x2="0" y2="-80" />
   </g>
 
-  <circle class="center" r="3" />
+  <circle className="center" r="3" />
       </svg> */}
-<div class="containers">
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
+<div className="containers">
+        <div className="card">
+            <div className="face face1">
+                <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" />
                     <h3>Conception</h3>
                 </div>
             </div>
-            <div class="face face2">
-                <div class="content">
-                    <ul class="text-danger">
+            <div className="face face2">
+                <div className="content">
+                    <ul className="text-danger">
                       <li>Direction créative</li>
                       <li>Guides de marque</li>
                       <li>Prototypes</li>
@@ -145,16 +103,16 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
+        <div className="card">
+            <div className="face face1">
+                <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
                     <h3>Code</h3>
                 </div>
             </div>
-            <div class="face face2">
-                <div class="content">
-                <ul class="text-danger">
+            <div className="face face2">
+                <div className="content">
+                <ul className="text-danger">
                       <li>Conception de l'architecture système</li>
                       <li>Développement full-stack</li>
                       <li>Intégrations tierces Optimisation des performances</li>
@@ -162,16 +120,16 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
+        <div className="card">
+            <div className="face face1">
+                <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
                     <h3>Launch</h3>
                 </div>
             </div>
-            <div class="face face2">
-                <div class="content">
-                <ul class="text-danger">
+            <div className="face face2">
+                <div className="content">
+                <ul className="text-danger">
                       <li>Analyse et recherche</li>
                       <li>Ateliers interactifs</li>
                       <li>Stratégie de marque</li>
@@ -184,10 +142,10 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
         </div>
     </div>
     <div id="page-body">
-  <div class="container">
-    <div class="row  wow fdeInUp"> 
-    <aside class="col-md-2 col-sm-5" style={{padding:0}} > 
-        <section class="widget widget_categories  wow fdeInUp">
+  <div className="container">
+    <div className="row  wow fdeInUp"> 
+    <aside className="col-md-2 col-sm-5" style={{padding:0}} > 
+        <section className="widget widget_categories  wow fdeInUp">
           <ul >
             <li ><a onClick={()=>setSelected('construire')}> Construire</a> </li>
             <li><a onClick={()=>setSelected('grandir')}> Grandir </a></li>
@@ -195,11 +153,11 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
           </ul>
         </section> 
       </aside>
-      <div class="col-md-6 col-sm-7 col-xs-12 page-block"> 
+      <div className="col-md-6 col-sm-7 col-xs-12 page-block"> 
           {
               selected === 'construire' && 
               (
-                  <div class="text-danger">
+                  <div className="text-danger">
                       <h3>QU'EST-CE QUE LA CONSTRUCTION ?</h3>
                       <p>Construire est une approche de base axée sur la refonte et la réingénierie complètes de votre site Web existant.</p>
                       <h3>CONSTRUISEZ UN AJUSTEMENT PARFAIT SI...</h3>
@@ -216,7 +174,7 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
           {
               selected === 'grandir' && 
               (
-                  <div class="text-danger">
+                  <div className="text-danger">
                       <h3>QU'EST-CE QUI GRANDIR ?</h3>
                       <p>Grandir est une approche stratégique rapide axée sur la réalisation de vos objectifs avec un site Web existant.</p>
                       <h3>GRANDIR EST UN BON CHOIX SI...</h3>
@@ -231,7 +189,7 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
           {
               selected === 'soutenir' && 
               (
-                  <div class="text-danger">
+                  <div className="text-danger">
                       <h3>QU'EST-CE QUE L'ASSISTANCE ?</h3>
                       <p>L'assistance est une approche systématique, proactive et réactive pour garantir que votre site Web est sain et sécurisé.</p>
                       <h3>LE SUPPORT EST SUPER SI…</h3>
@@ -245,18 +203,18 @@ Follow me on twitter for more: https://twitter.com/HunorBorbely
                   </div>
               )
           }
-        <div class="clearfix"></div>
+        <div className="clearfix"></div>
       </div>
-      <div class="col-md-4 col-sm-7 col-xs-12 page-block "   > 
+      <div className="col-md-4 col-sm-7 col-xs-12 page-block "   > 
       <div style={{backgroundColor:'black', textAlign:'center'}}>
             <h3>CE À QUOI VOUS DEVEZ VOUS ATTENDRE</h3>
-            <p class="text-danger">Un gestionnaire de compte sur appel, situé dans le pays</p>
-            <p class="text-white">Un site web sécurisé et toujours à jour</p>
-            <p class="text-white">Un investissement de 5000 FCFA/mois ou plus</p>
+            <p className="text-danger">Un gestionnaire de compte sur appel, situé dans le pays</p>
+            <p className="text-white">Un site web sécurisé et toujours à jour</p>
+            <p className="text-white">Un investissement de 5000 FCFA/mois ou plus</p>
           </div>
-        <div class="clearfix"></div>
+        <div className="clearfix"></div>
       </div>
-      <div class="clearfix"></div>
+      <div className="clearfix"></div>
     </div>
   </div>
 </div>

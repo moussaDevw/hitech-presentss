@@ -8,7 +8,7 @@ export default function agenceConseil(){
         <div>
       <Head>
       <meta charset="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="IE=9" />
+      <meta httpEquiv="x-ua-compatible" content="IE=9" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Agence & conseils</title>
       <meta name="description" content="" />
@@ -23,27 +23,27 @@ export default function agenceConseil(){
       <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css' />
       </Head>
 
-      <body class="single">
+      <body className="single">
         <NavBar />
 
 <div id="Blog-post"> 
-  <header class="entry-header">
-    <div class="content  wow fadeInUp">
-      <div class="container "> 
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><Link href="/"><a>Home</a></Link> </li>
-          <li class="breadcrumb-item active">Agence & conseils</li>
+  <header className="entry-header">
+    <div className="content  wow fadeInUp">
+      <div className="container "> 
+        <ol className="breadcrumb">
+          <li className="breadcrumb-item"><Link href="/"><a>Home</a></Link> </li>
+          <li className="breadcrumb-item active">Agence & conseils</li>
         </ol>
         <h3>CONCEPTION ET DÉVELOPPEMENT DE SITES WEB POUR LES AGENCES ET LES CONSULTANTS</h3>
         <hr />
         </div>
     </div>
-    <div class="arrow bounce"> <i class="fa fa-arrow-down fa-2x"></i> </div>
+    <div className="arrow bounce"> <i className="fa fa-arrow-down fa-2x"></i> </div>
   </header>
   <section id="about-us-block">
-  <div class="container">
-    <div class="row"> 
-      <div class="section-title text-center wow fadeInUp">
+  <div className="container">
+    <div className="row"> 
+      <div className="section-title text-center wow fadeInUp">
         <h2>Nous créons des sites portfolio pour les cabinets de conseil qui se démarquent et communiquent clairement .</h2>
         {/* <a href="page.html">Mission brief</a> */}
       </div>

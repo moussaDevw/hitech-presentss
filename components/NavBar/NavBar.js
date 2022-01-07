@@ -19,31 +19,31 @@ export  const NavBar = ()=>{
     return(
         <div>
             <Jquery />
-            <nav id="top-menu" class="navbar navbar-default navbar-fixed-top">
-            <div class="container"> 
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <nav id="top-menu" className="navbar navbar-default navbar-fixed-top">
+            <div className="container"> 
+                <div className="navbar-header">
+                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span></button>
                 <Link href="/">
-                <a class="navbar-brand"><img src="img/logo-top.png" class="img-responsive" /><span>Hitech-present</span></a>
+                <a className="navbar-brand"><img src="img/logo-top.png" className="img-responsive" /><span>Hitech-present</span></a>
                 </Link>
                  </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+                <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
                 <a id="nav-icon"> <span></span> <span></span> <span></span> </a> 
-                <ul id="nav-top" class="nav navbar-nav navbar-right">
-                    <li><Link href="/"><a class="page-scroll">Acceuil</a></Link></li>
+                <ul id="nav-top" className="nav navbar-nav navbar-right">
+                    <li><Link href="/"><a className="page-scroll">Acceuil</a></Link></li>
                     <li>
-                        <Link href="/services"><a class="page-scroll">Services</a></Link>
+                        <Link href="/services"><a className="page-scroll">Services</a></Link>
                     </li>
                     <li>
                         <Link href="/agence-conseil">
-                        <a class="page-scroll">Agence & Conseils</a>
+                        <a className="page-scroll">Agence & Conseils</a>
                         </Link>
                     </li>
-                    {/* <li><a href="contact.html" class="page-scroll">Contact</a></li> */}
+                    {/* <li><a href="contact.html" className="page-scroll">Contact</a></li> */}
                 </ul>                 
                
         
-                <nav class="bottom-nav">
+                <nav className="bottom-nav">
                     <ul>
                         <li><a href="#">Privacy</a></li>
                         <li><a href="#">Blog</a></li>
@@ -51,11 +51,11 @@ export  const NavBar = ()=>{
                     </ul>
                 </nav>
                 
-                <ul class="social-link">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <ul className="social-link">
+                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                 </ul>
             </div>
             </div> 

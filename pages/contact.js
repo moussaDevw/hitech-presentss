@@ -8,7 +8,7 @@ export default function Contact() {
     <div>
       <Head>
       <meta charset="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="IE=9" />
+      <meta httpEquiv="x-ua-compatible" content="IE=9" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Contact</title>
       <meta name="description" content="" />
@@ -26,31 +26,31 @@ export default function Contact() {
       <body>
       <NavBar />
       <div id="page-banner">
-        <div class="content  wow fdeInUp">
-            <div class="container ">
+        <div className="content  wow fdeInUp">
+            <div className="container ">
             <h1>Contact</h1>
             </div>
         </div>
     </div>
     <div id="page-body">
-  <div class="container-fluid">
-  <div class={style_contact.blog_contact}>
+  <div className="container-fluid">
+  <div className={style_contact.blog_contact}>
       <section>
-        <h2 class={style_contact.title_info}>Laissez-nous vos informations</h2>
+        <h2 className={style_contact.title_info}>Laissez-nous vos informations</h2>
           <form>
-            <div class={style_contact.form_contact}>
+            <div className={style_contact.form_contact}>
               <label>Votre nom complet</label>
               <input type='text' placeholder='nom' />
             </div>
-            <div class={style_contact.form_contact}>
+            <div className={style_contact.form_contact}>
               <label>Votre nom complet</label>
               <input type='text' placeholder='nom' />
             </div>
-            <div class={style_contact.form_contact}>
+            <div className={style_contact.form_contact}>
               <label>Votre nom complet</label>
               <input type='text' placeholder='nom' />
             </div>
-            <div class={style_contact.form_contact}>
+            <div className={style_contact.form_contact}>
               <label>Votre nom complet</label>
               <textarea>
 
@@ -59,8 +59,8 @@ export default function Contact() {
           </form>
       </section> 
       <aside> 
-        <h2 class={style_contact.title_info}>Informations de contact</h2>
-        <div class={style_contact.info_details}>
+        <h2 className={style_contact.title_info}>Informations de contact</h2>
+        <div className={style_contact.info_details}>
             <div>
               <address>
                 <h4>Pays</h4>
@@ -109,26 +109,26 @@ export default function Contact() {
   </div>
 </div>
     <section id="company-counter" >
-    <div class="container">
-        <div class="row text-center">
-        <div class="col-md-12 wow fadeInDown">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="c-block"><i class="fa fa-heart-o"></i><span class="counter">10</span>
+    <div className="container">
+        <div className="row text-center">
+        <div className="col-md-12 wow fadeInDown">
+            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="c-block"><i className="fa fa-heart-o"></i><span className="counter">10</span>
                 <p>Clients</p>
             </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="c-block"><i class="fa fa-envelope-o"></i><span class="counter">456</span>
+            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="c-block"><i className="fa fa-envelope-o"></i><span className="counter">456</span>
                 <p>Leads</p>
             </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="c-block"><i class="fa fa-folder-o"></i><span class="counter">4</span>
+            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="c-block"><i className="fa fa-folder-o"></i><span className="counter">4</span>
                 <p>Websites</p>
             </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <div class="c-block"><i class="fa fa-coffee"></i><span class="counter">456</span>
+            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="c-block"><i className="fa fa-coffee"></i><span className="counter">456</span>
                 <p>Coffee</p>
             </div>
             </div>

@@ -8,7 +8,7 @@ export default function WhyWe(){
         <div>
       <Head>
       <meta charset="utf-8" />
-      <meta http-equiv="x-ua-compatible" content="IE=9" />
+      <meta httpEquiv="x-ua-compatible" content="IE=9" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Pourquoi nous</title>
       <meta name="description" content="" />
@@ -23,48 +23,48 @@ export default function WhyWe(){
       <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css' />
       </Head>
 
-      <body class="single">
+      <body className="single">
         <NavBar />
 <div id="Blog-post"> 
-  <header class="entry-header">
-    <div class="content  wow fadeInUp">
-      <div class="container "> 
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><Link href="/"><a>Acceuil</a></Link> </li>
-          <li class="breadcrumb-item active">Pourquoi nous</li>
+  <header className="entry-header">
+    <div className="content  wow fadeInUp">
+      <div className="container "> 
+        <ol className="breadcrumb">
+          <li className="breadcrumb-item"><Link href="/"><a>Acceuil</a></Link> </li>
+          <li className="breadcrumb-item active">Pourquoi nous</li>
         </ol>
         <h3>Pourquoi HITECH-PRESENT ?</h3>
         <hr />
         </div>
     </div>
-    <div class="arrow bounce"> <i class="fa fa-arrow-down fa-2x"></i> </div>
+    <div className="arrow bounce"> <i className="fa fa-arrow-down fa-2x"></i> </div>
   </header>
   <div id="page-body">
-  <div class="container">
-  <div class="row  wow fdeInUp"> 
-    <div class="col-md-12 col-sm-12 col-xs-12 page-block" style={{backgroundColor:'black'}} > 
-      <h2 class="text-center text-white">Des victoires mémorables, à chaque fois.</h2>
+  <div className="container">
+  <div className="row  wow fdeInUp"> 
+    <div className="col-md-12 col-sm-12 col-xs-12 page-block" style={{backgroundColor:'black'}} > 
+      <h2 className="text-center text-white">Des victoires mémorables, à chaque fois.</h2>
     </div>
-      <div class="clearfix"></div>
+      <div className="clearfix"></div>
     </div>
-    <div class="row d-flex justify-content-between" style={{backgroundColor:'black'}}> 
-    <aside class="col-md-6 col-sm-6" style={{padding:0}} > 
-        <section class="col-md-12">
-         <h5 class='text-white'>Nous aidons les entreprises, grandes et petites, à découvrir ce qui les rend uniques et à les canaliser dans une expérience mémorable qui surpasse et surpasse leurs concurrents en ligne.</h5>
+    <div className="row d-flex justify-content-between" style={{backgroundColor:'black'}}> 
+    <aside className="col-md-6 col-sm-6" style={{padding:0}} > 
+        <section className="col-md-12">
+         <h5 className='text-white'>Nous aidons les entreprises, grandes et petites, à découvrir ce qui les rend uniques et à les canaliser dans une expérience mémorable qui surpasse et surpasse leurs concurrents en ligne.</h5>
         </section> 
       </aside>
-      <div class="col-md-6 col-sm-6 col-xs-12"   > 
-        <div class="col-md-12">
-            <h5 class='text-white'>Nous gardons notre processus simple, transparent et axé sur le client. Nous évitons les mots à la mode et les conneries – nous dépensons notre énergie plutôt à nous concentrer sur la création d'expériences utilisateur de premier ordre qui se traduisent par des choses qui comptent.</h5>
+      <div className="col-md-6 col-sm-6 col-xs-12"   > 
+        <div className="col-md-12">
+            <h5 className='text-white'>Nous gardons notre processus simple, transparent et axé sur le client. Nous évitons les mots à la mode et les conneries – nous dépensons notre énergie plutôt à nous concentrer sur la création d'expériences utilisateur de premier ordre qui se traduisent par des choses qui comptent.</h5>
         </div>
       </div>
     </div>
   </div>
 </div>
   <section id="about-us-block">
-  <div class="container">
-    <div class="row"> 
-      <div class="section-title text-center wow fadeInUp">
+  <div className="container">
+    <div className="row"> 
+      <div className="section-title text-center wow fadeInUp">
         <h2>Nous créons des sites portfolio pour les cabinets de conseil qui se démarquent et communiquent clairement .</h2>
         {/* <a href="page.html">Mission brief</a> */}
       </div>
